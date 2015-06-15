@@ -1,0 +1,38 @@
+#box-agenda {
+	height: 185px;
+	margin-top: 5px;
+}
+/* Agenda */
+div.agenda {
+	font-size: 11px;
+	margin-bottom: 0;
+}
+div.agenda span{
+font-weight: bold; font-size: 12px; color: #706F6F;
+}
+div.agenda a{
+font-weight: bold; font-size: 12px; color: #706F6F;
+}
+ul.list-agenda {
+	list-style-type:none;
+	padding: 0 0 !important;
+	margin-bottom: 3px; margin-top: 3px;
+	color:#706F6F;
+}
+ul.list-agenda a {
+	color:#706F6F;
+}
+ul.list-agenda a:hover {
+	color:#0082C6;
+}
+#menu-agenda ul {
+	padding-left: 0;
+}
+#menu-agenda ul li {
+	margin-left: 0px;
+	display:block;
+	padding: 0 10px;
+}
+
+/* End of Agenda CSS */
+/* 31 Juli 2012 [10:44 AM] */

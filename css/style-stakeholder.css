@@ -1,0 +1,86 @@
+/* Bagian A Style stakeholder di halaman index */
+#stakeholder-container{
+	position:relative;
+	padding:0;
+}
+#stakeholder-menu{
+	margin-top:0;	
+	list-style:none;
+	font-weight:bold;
+	z-index:100;
+	position:relative;
+	padding: 0 0;
+}
+#stakeholder-menu li{
+	float:left;
+	position:relative;
+	margin-right:0;
+	margin-left: 1px;
+	line-height: 25px;
+}
+#stakeholder-menu a{
+	padding: 0px 0.6em 0px;
+	color:#fff;
+	background:#0066AA;
+	text-decoration: none;
+	float: left;
+	border-left: 1px solid #FFF;
+}
+#stakeholder-menu a:hover{
+	margin-top: 4px;
+	font-size: 1.1em;
+	background-color: #FFF;
+	color: #0066AA;	
+	border-color: #06A;
+}
+#stakeholder-menu ul li a:link { color: #FFF; }
+#stakeholder-menu ul li a:visited { color: #FFF; }
+
+#stakeholder-menu ul
+{
+padding: 0 0;
+margin-left: 0;
+background:#fff;
+}
+
+#stakeholder-menu ul li
+{
+list-style: none;
+margin: 0;
+display: inline;
+}
+
+#stakeholder-menu ul li a
+{
+border-left: 1em solid #AAB;
+background: #0066AA;
+text-decoration: none;
+}
+
+/* Bagian B Style menu di halaman stakeholder */
+ul#list-menu-stakeholder {
+	list-style-type:none;
+}
+ul#list-menu-stakeholder li{
+	height:30px;
+	margin-bottom: 5px;
+}
+ul#list-menu-stakeholder a{
+	display:inline;
+	text-decoration:none;
+	color:#06A;
+	font-size: 1.5em;
+	padding: 2px 8px;
+	width: 200px;
+}
+ul#list-menu-stakeholder a:hover{
+	background-color:#06A;
+	color:#FFF;
+}
+.icon-menu-stakeholder {
+	width: 40px;
+	height: 30px;
+	margin-top: -3px;
+}
+/* End of Stakeholder CSS */
+/* 31 Juli 2012 [10:44 AM] */

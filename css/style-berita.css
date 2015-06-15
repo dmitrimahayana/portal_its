@@ -1,0 +1,78 @@
+/* Bagian A ITS Online */
+#menu-berita {
+	height: 575px;
+	margin: 10px 0 0;
+}
+div#menu-berita ul li {width: 70px;}
+div#menu-berita ul li a{	text-align: center; width: 70px; padding-left: 0px; font-size: 12px; font-family: Arial, "Trebuchet MS";}
+/* Bagian B Arsip Berita Terkini */
+div#list-hot-news{
+	font-weight: bold;
+	font-family: gadget, sans-serif;
+	color: #333;
+}
+p.date-hot-news{
+	padding: 0 3px;
+	margin: 0 0;
+	font-size: 9px;
+}
+p.head-hot-news{
+	padding: 0 3px;
+	margin: 0 0;
+	font-size: 11px;
+}
+/* Bagian C Halaman Berita Common */
+/*
+#detail-berita {
+	height: auto;
+	width: 730px;	
+	background: #FFF;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-right: 10px;
+	padding: 1em 1em;
+}
+*/
+#gambar-berita {
+	width: 225px;
+	height: 165px;
+}
+.news-title {
+	width: 425px;
+}
+.news-detail {
+	padding: 3px 10px;
+	margin-left: 2px;
+	margin-right: 3px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.news-head {
+	width: 425px;
+	font-family: Helvetica, "Trebuchet MS", Arial, "Courier New" ,sans-serif;
+	text-align:justify;
+	text-justify:inter-word;
+}
+.news-head:first-letter {
+	font-size: 32px;
+}
+.news-body {
+	font-family: Helvetica, "Trebuchet MS", Arial, "Courier New" ,sans-serif;
+	text-align:justify;
+	text-justify:inter-word;
+	font-size: 11px;
+}
+.article {
+	text-align: justify;
+}
+.article #content .header {
+	display: block;
+	font-size: 2em;
+	-webkit-margin-before: 0.1em;
+	-webkit-margin-after: 0.5em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+/* End of Berita CSS */
+/* 31 Juli 2012 [10:44 AM] */

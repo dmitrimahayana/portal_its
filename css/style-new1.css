@@ -1,0 +1,97 @@
+/*highlight*/
+.button-highlight{
+    position:relative;
+    background:url(../images/assets/button_highlights_idle.png) no-repeat;
+    height:50px;
+}
+.button-highlight div:hover{
+    background:url(../images/assets/button_highlights_hover.png) no-repeat;
+    height:50px;
+}
+.higlight-hover{
+    height:15px;
+}
+
+/*info info*/
+.info-3{
+    position:relative;
+    color:#C6C6C6;
+    width:168px;
+    height:104px;
+    background:url(../images/assets/button_idle.png) no-repeat 0px 70px;
+    float:left;
+    margin-left:13px;
+}
+.info-3 div.bg-info3 div:hover{
+    position:relative;
+    color:white;
+    height:104px;
+    background:url(../images/assets/button_hover.png) no-repeat 0px 70px;
+}
+.bg-info3-transparant{
+    position:relative;
+    margin-top:-74px;
+    height:104px;
+}
+
+/*logo logo*/
+.logoMacam-macam{
+    /*background:url(../images/assets/button_UPT.jpg);*/
+    width:72px;
+    height:72px;
+    margin-top:50px;
+    float:left;
+    margin-left:17px;
+    margin-bottom:20px;
+    position:relative;
+}
+
+/*site maps*/
+#siteMaps{
+    position:relative;
+    bottom:-20px;
+    /*width:925px;*/
+}
+#siteMaps a:hover{
+    color:#0082c6;
+}
+#subSiteMaps,#siteMaps{
+    padding-top:8px;
+    padding-left:50px;
+    text-align:left;
+    border:solid 1px #c3c3c3;
+    background-color:#3C3C3B;
+    height:31px;
+    font-size:11pt;
+    color:#C6C6C6;
+    height: 60px;
+}
+#subSiteMaps
+{
+    padding:50px;
+    display:none;
+    height:550px;
+}
+.subsite-fill{
+    /*float:left;*/
+    position:relative;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar{
+    width:12px;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px c3c3c3;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb{
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    background:#c3c3c3;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background:#c3c3c3;
+}

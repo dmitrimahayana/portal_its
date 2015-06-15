@@ -1,0 +1,47 @@
+/* Override HTML Tag */
+body{
+	/*font-family: "Trebuchet MS", Gadget, Arial, "Courier New", sans-serif;*/
+	//font-size:12px;
+	/*background:#C6C6C6;*/
+	color: #000;
+
+}
+h1 {font-size: 2em;-webkit-margin-after: 0.5em;}
+h2 {font-size: 1.5em;-webkit-margin-after: 0.4em;}
+h3 {font-size: 1.2em;-webkit-margin-after: 0.3em;}
+h4 {font-size: 1em;-webkit-margin-after: 0.2em;}
+h5 {font-size: 1em;-webkit-margin-after: 0.1em;}
+h1, h2, h3, h4, h5 {
+	display: block;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	text-align:justify;
+	text-justify:inter-word;
+	-webkit-margin-before: 0.1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #00F;
+}
+
+a:visited {
+	color: #00F;
+}
+
+ul {
+	list-style: none;
+}
+
+table.myTable { 
+border-collapse:collapse; 
+}
+table.myTable td, table.myTable tr { 
+border:1px solid black;
+padding:3px; 
+}
+/* End of HTML CSS */
+/* 31 Juli 2012 [10:44 AM] */

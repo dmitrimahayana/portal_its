@@ -1,0 +1,64 @@
+/* Umum */
+ul.menu-sidebar li{
+	/*border-bottom: 1px solid #90E452;*/
+}
+ul.menu-sidebar a {
+	display:block;
+	padding: 1px 20px;
+	text-decoration:none;
+	color:#706F6F;
+	/*font-weight:bold;*/
+	z-index: 10000;
+       text-align:right;
+}
+ul.menu-sidebar a:hover{
+	/*border-right: 20px solid transparent;*/
+	color:#0082C6;
+        /*font-weight:bold;*/
+        background:url(../images/assets/symbol_triangle2.png) no-repeat 240px 5px;
+        font-weight: bold;
+	 
+}
+/* Level 1 */
+ul.menu-sidebar{
+	list-style: none;
+	padding-left:0px;
+	margin:0px 0px;
+	font-size:12pt;
+	font-family:Source Sans Pro;
+}
+/* Level 2 */
+ul.extend-sidebar a:hover{
+	/*border-right: 20px solid transparent;*/
+	color:#0082C6;
+        /*font-weight:bold;*/
+        background:url(../images/assets/symbol_triangle2.png) no-repeat 227px 5px;
+}
+ul.extend-sidebar {
+	-webkit-transition: all 0.50s ease-out;	/* Untuk animasi mouse out */
+	overflow: hidden;
+	list-style: none;
+	list-style-position: inside;
+	padding-left: 0px;
+	border-right: 10px solid #0082C6;
+        /*border-right: 20px solid transparent;*/
+	opacity: 0.6;
+	/* For IE8 and earlier */	
+	filter:alpha(opacity=0.6);
+	font-family:Source Sans Pro;       
+	font-size:10pt;
+}
+li:hover .extend-sidebar {
+	opacity: 1;
+	/* For IE8 and earlier */
+	filter:alpha(opacity=1);
+}
+/* Level 3 */
+ul.extend-sidebar-2 {
+	-webkit-transition: all 0.50s ease-out; /* Untuk animasi mouse out */
+	overflow: hidden;
+	padding-left: 0px;
+	border-left: 20px solid transparent;
+}
+/* End of Sidebar CSS */
+/* 31 Juli 2012 [10:44 AM] */

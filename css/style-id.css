@@ -1,0 +1,47 @@
+@charset "utf-8";
+#menu-eureka {
+	/*height: 370px;*/
+}
+#body-container{
+	width: 960px;
+	min-width: 960px;
+	margin:0 auto; /* Center */
+}
+#main{
+	width: 960px;
+	min-width: 960px;
+}
+#footer{
+	height: 60px;
+	margin-bottom: 50px;
+	margin-top: -20px;
+}
+#footer div ul {
+	padding-left:0px;
+	margin:0px 0px;
+}
+
+#sekilas-info {
+	/*position: fixed;
+	margin: 0 0;
+	left: 0px;
+	height: 25px;
+	width: 100%;
+	background-color: transparent;
+	z-index: 100;*/
+        position: relative;
+        z-index: 1000;
+        height: 25px;
+        background: transparent;
+}
+#sekilas-info span{
+	z-index: 1000;
+}
+
+#box-agenda{
+    margin-left:15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* End of ID CSS */
+/* 31 Juli 2012 [10:44 AM] */

@@ -1,0 +1,93 @@
+body {
+    background: #f2f2f2 url(../../images/v2/Theme-Science.png) top center repeat-y;/*background wallpaper*/
+}
+.has_octagon {
+    background-image: url(../../images/v2/octagon.png);/*background octagon*/
+}
+.logo a {
+    background-image: url(../../images/v2/its_logo-white.png);/*background its logo*/
+}
+
+#main-menu li ul {
+
+}
+
+.search-media input[type="text"],
+.option-search .search input[type="text"] {
+    background-color: #ffffff;
+}
+
+.dd-container .dd-selected {
+    color: #666666 
+}
+.dd-container:focus .dd-selected:focus,
+.dd-container:hover .dd-selected:hover,
+.dd-container:active .dd-selected:active {
+    color: #007dc5 
+}
+.dd-options { 
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #fff;
+    background-color: #007dc5;
+    color: #fff;
+}
+.dd-options li {
+	background-color: #007dc5;
+}
+.dd-options .dd-option-selected {
+    background-color: #0086d3;
+}
+.dd-options a {
+    color: #fff;
+}
+.dd-options a:hover,
+.dd-options a:focus,
+.dd-options a:active {
+    background-color: #fff;
+    color: #007dc5;
+}
+
+@media (max-width: 479px) {
+    
+}
+
+@media (max-width: 544px) {
+
+}
+
+@media (min-width: 768px) {
+    #main-menu li ul {  
+        background: rgb(0,125,197);
+        background: rgba(0,125,197,.95);
+        border-bottom: 4px solid #ffffff;
+        color: #fff;
+    }
+    #main-menu li ul li.sub-menu-title {
+        margin-right: 10px;
+        margin-bottom: 4px;
+        margin-left: 10px;
+        border-bottom: 1px solid #bdbdbd;
+        line-height: 1.8;
+        display: block;
+    }
+    #main-menu li ul li a {
+        display: block;
+        padding: 3px 10px;
+    }
+    #main-menu li ul li a:hover {
+        background: #fff;
+        color: rgb(0,125,197);
+    }
+    #sitemap_menu {
+        color: #cccccc;
+    }
+    .sitemap_menu-bg {
+        background: url(../../images/v2/octagon_sitemap.png) bottom center no-repeat;
+    }
+}
+
+
+@media (min-width: 960px) {
+
+}

@@ -1,0 +1,23 @@
+div#container-interaktif {
+	width: 386px;
+	height: 225px;
+	padding: 0 0 0 0px;
+}
+div#box-interaktif {
+	height: 220px;
+	margin-bottom: 0px;
+	padding: 0 0;
+}
+ul#div-interaktif  div{
+	width: 320px;
+	height: 180px;
+	margin: 0 auto;
+}
+ul#div-interaktif li {
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+/* End of Interaktif CSS */
+/* 31 Juli 2012 [10:44 AM] */

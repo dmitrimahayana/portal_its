@@ -1,0 +1,1 @@
+<div class="clear"></div><!-- start footer --><div class="height50"></div><div id="backend-footer" class="borderless">	Beranda portal ITS &copy; 2012 All rights reserved.</div><!-- end footer --></div><!-- end body container --> </body></html>

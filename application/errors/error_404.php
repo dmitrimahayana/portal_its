@@ -1,0 +1,1 @@
+<?php redirect('page_404'); ?>

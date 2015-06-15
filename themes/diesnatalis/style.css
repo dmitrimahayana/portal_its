@@ -1,0 +1,63 @@
+body {
+    background: #f2f2f2 url(../../images/v2/bg-disnatalies.png) top center repeat-y;
+}
+.has_octagon {
+    background-image: url(octagon-diesnatalis.png);
+}
+.logo a {
+    background-image: url(../../images/v2/its_logo.png);
+}
+
+#main-menu li ul {
+
+}
+
+.search-media input[type="text"],
+.option-search .search input[type="text"] {
+    background-color: #ffffff;
+}
+
+@media (max-width: 479px) {
+    
+}
+
+@media (max-width: 544px) {
+
+}
+
+@media (min-width: 768px) {
+    #main-menu li ul {  
+        background: rgb(0,125,197);
+        background: rgba(0,125,197,.95);
+        border-bottom: 4px solid rgb(243,243,243);
+        border-bottom-color: rgba(243,243,243,.9);
+        color: #fff;
+    }
+    #main-menu li ul li.sub-menu-title {
+        margin-right: 10px;
+        margin-bottom: 4px;
+        margin-left: 10px;
+        border-bottom: 1px solid #bdbdbd;
+        line-height: 1.8;
+        display: block;
+    }
+    #main-menu li ul li a {
+        display: block;
+        padding: 3px 10px;
+    }
+    #main-menu li ul li a:hover {
+        background: #fff;
+        color: rgb(0,125,197);
+    }
+    #sitemap_menu {
+        color: #cccccc;
+    }
+    .sitemap_menu-bg {
+        background: url(../../images/v2/octagon_sitemap.png) bottom center no-repeat;
+    }
+}
+
+
+@media (min-width: 960px) {
+
+}

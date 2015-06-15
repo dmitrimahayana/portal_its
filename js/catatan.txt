@@ -1,0 +1,8 @@
+pada folder backend adalah javascript untuk backend
+
+jquery.anythingslider.fx.min, jquery.anythingslider digunakan untuk animasi pada menu interaktif
+jquery.cycle.all.latest digunakan untuk animasi pada agenda
+jquery-1.7.1.min dasar jquery yang digunakan
+jquery-ui-1.8.18.custom.min jquery untuk animasi tab, accordion, dll
+
+interface.js tidak digunakan

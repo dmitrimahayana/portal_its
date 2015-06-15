@@ -1,0 +1,39 @@
+/* Banner */
+#banner {
+	height: 134px;
+	width: auto;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	background:#fff;
+	padding:0px 30px;
+        padding-top:31px;
+}
+/* Logo ITS */
+#logo-box{
+	float:left;
+	padding: 0px;
+}
+/* Stakeholder line container */
+#nav-top{
+        position:relative;
+	height:31px;
+	text-align:justify;
+	/*background:#0066AA;*/
+	margin:0 auto;
+}
+/* Search */
+#searchbox-container {
+	/* Right upper position */
+	float: left;
+	padding-left: 5px;
+        margin-left: 20px;
+}
+#search-text {
+	border:0px; /*important*/
+	background-color:#FFF;
+	width:155px;
+}
+/* End of Navtop CSS */
+/* 31 Juli 2012 [10:44 AM] */

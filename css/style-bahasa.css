@@ -1,0 +1,32 @@
+/*Style bahasa*/
+/*
+#language{
+	float:right;
+	margin-top:0;
+	padding:5px;
+	margin-right:0px;
+	color:#fff;
+}
+*/
+#language-container {
+	padding-top: 3px;
+}
+ul#language-menu{
+	margin:0;
+	padding:0;
+}
+
+ul#language-menu li{
+	display:inline;
+	padding-left: 15px;
+	/*padding-right: 5px;*/
+}
+/*
+ul#language-menu a{
+	padding:5px;
+	color:#fff;
+	text-decoration:none;
+}
+*/
+/* End of Bahasa CSS */
+/* 31 Juli 2012 [10:44 AM] */
